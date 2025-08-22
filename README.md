@@ -5,7 +5,7 @@
 
 ### Как запустить
 
-Склонируйте проект или скачайте .zip файл, распакуйте и перейдите в его папку.
+Склонируйте проект или скачайте Zip-файл, распакуйте и перейдите в его папку.
  В консоли выполните:
  ```bash
 dotnet run
@@ -15,7 +15,7 @@ dotnet run
 
 ### 1. Загрузка данных текстом
 
-POST /api/platforms/upload-text
+`POST /api/platforms/upload-text`
 
 В теле запроса нужно передать JSON:
 
@@ -26,7 +26,7 @@ POST /api/platforms/upload-text
 ```
 ### 2. Загрузка данных файлом
 
-POST /api/platforms/upload-file
+`POST /api/platforms/upload-file`
 
 Загрузка данных одним файлом.
 
